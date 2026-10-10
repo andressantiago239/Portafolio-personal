@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rider Police - Proyecto Lógica Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="logo">Proyecto Lógica Digital</a>
+                <a href="index.html" class="btn-back-nav"><i data-lucide="arrow-left"></i> Volver al Portafolio</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="seccion-detalle">
+        <section class="seccion">
+            <h1 class="titulo-detalle">Car Rider Police - Lógica Digital</h1>
+            
+            <div class="detalle-grid">
+                <div class="detalle-info">
+                    <h2>Descripción del Proyecto</h2>
+                    <p>
+                        Este proyecto implementa un circuito con Arduino y el registro de desplazamiento <strong>74HC595</strong> para controlar múltiples LEDs utilizando la menor cantidad de pines de salida posibles del microcontrolador.
+                    </p>
+                    <p>
+                        Se programó un patrón dinámico de luces secuenciales simulando el efecto visual de una patrulla ("Carro Fantástico"), optimizando el uso de la memoria y el rendimiento del hardware.
+                    </p>
+
+                    <h2>Tecnologías Utilizadas</h2>
+                    <div class="tags-container">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">CI 74HC595</span>
+                        <span class="tag">C++ / Wokwi</span>
+                        <span class="tag">Electrónica Digital</span>
+                    </div>
+                </div>
+
+                <div class="detalle-aprendizajes">
+                    <h2>Aprendizajes Clave</h2>
+                    <ul>
+                        <li>Manejo y cascada de registros de desplazamiento de 8 bits.</li>
+                        <li>Optimización de I/O en microcontroladores.</li>
+                        <li>Diseño y ensamblaje de prototipos en protoboard.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Galería del Proyecto</h2>
+            <div class="galeria">
+                <figure class="galeria-item">
+                    <img src="img/carro-luces.jpg" alt="Carro con luces activas">
+                    <figcaption>Patrón de luces en funcionamiento</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="img/esqueleto.jpg" alt="Circuito interno">
+                    <figcaption>Estructura y conexionado interno</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="img/proyecto.jpg" alt="Montaje completo">
+                    <figcaption>Montaje final de la placa Arduino</figcaption>
+                </figure>
+            </div>
+
+            <div class="acciones-detalle">
+                <button class="btn btn-primary" onclick="volverInicio()"><i data-lucide="arrow-left"></i> Volver a Proyectos</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Andrés Santiago Peña Murcia.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

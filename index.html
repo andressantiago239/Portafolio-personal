@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h2 class="logo">Mi Portafolio Personal</h2>
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+        <h1>Hola, soy <span class="resaltado">Andrés Santiago Peña Murcia</span></h1>
+        <p class="subtitulo">Desarrollador web y informático, Innovador Digital</p>
+        <!-- CÓDIGO NUEVO (Cámbialo por este): -->
+        <!-- CÓDIGO VIEJO / ACTUAL: -->
+        <button class="btn" onclick="descargarHV()">Hoja de Vida</button>
+    </section>
+    <script src="script.js"></script>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre" class="seccion">
+        <h2 class="titulo-seccion">Sobre mí</h2>
+        <p>
+            Soy un profesional apasionado por el desarrollo y la tecnología. 
+            Me especializo en crear interfaces modernas, optimizadas y centradas
+            en la experiencia del usuario. Actualmente, una de mis grandes metas 
+            profesionales es especializarme en el diseño, administración e implementación 
+            de redes e infraestructura de datos, aplicando mis conocimientos en la optimización, 
+            diagnóstico y control de la conectividad en escenarios reales y prácticos.
+        </p>
+    </section>
+
+    
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="seccion">
+        <h2 class="titulo-seccion">Habilidades Técnicas</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Networking & Protocols</h3>
+                <p>LAN, WAN, VLAN Segmentation, IPv4/IPv6 Addressing, Subnetting, NAT, Default Gateways, DHCP, DNS.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Hardware & Configuration</h3>
+                <p>Router & Switch Provisioning, Interface Configuration, Packet-Level Diagnostics, Basic Routing Protocols.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Network Operations</h3>
+                <p>Connectivity Testing, IP Conflict Resolution, Hardware & Link Diagnostics, Network Security Fundamentals.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools & Utilities</h3>
+                <p>Wireshark, Cisco Packet Tracer, Command Line Interface (CLI), Ping/Traceroute Diagnostics.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <p>English (Bilingual / Advanced Professional Proficiency).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="seccion">
+        <h2 class="titulo-seccion">Proyectos Destacados</h2>
+
+        <div class="proyectos-grid">
+
+            <div class="proyecto">
+                <h3>Página Web usando POO</h3>
+                <p>Sistema web completo con autenticación y panel administrativo.</p>
+                <button class="btn" onclick="abrirLink('https://tuproyecto1.com')">Ver Proyecto</button>
+            </div>
+
+            <div class="proyecto">
+                <h3>Seguridad de los datos</h3>
+                <p>Aplicación de ciberseguridad para escaneo y análisis básico.</p>
+                <button class="btn" onclick="abrirLink('https://tuproyecto2.com')">Ver Proyecto</button>
+            </div>
+
+            <div class="proyecto">
+                <h3>Proyecto Lógica Digital</h3>
+                <p>Car Rider Police con Arduino (74HC595).</p>
+                <button class="btn" onclick="window.location.href='proyecto_logica_digital.html'">Ver Proyecto</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="seccion">
+        <h2 class="titulo-seccion">Experiencia Laboral</h2>
+        <div class="card">
+            <h3>Empresa X (2022 - 2024)</h3>
+            <p>Desarrollador de software | Seguridad informática</p>
+            <ul>
+                <li>Desarrollo de interfaces modernas</li>
+                <li>Automatización de procesos</li>
+                <li>Implementación de medidas de seguridad</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <p class="contacto-subtitulo">¿Tienes algún proyecto en mente o deseas contactarme? ¡Escríbeme!</p>
+
+        <div class="contacto-grid">
+            <!-- Tarjeta Gmail -->
+            <a href="mailto:andressantiagopenamurcia@gmail.com" class="contacto-card">
+                <div class="contacto-icon">
+                    <img src="img/LogoGmail.png" alt="Logo Gmail">
+                </div>
+                <h3>Correo Electrónico</h3>
+                <p>andressantiagopenamurcia@gmail.com</p>
+                <span class="contacto-link">Enviar mensaje &rarr;</span>
+            </a>
+
+            <!-- Tarjeta WhatsApp -->
+            <a href="https://wa.me/573107565239" target="_blank" class="contacto-card">
+                <div class="contacto-icon">
+                    <img src="img/LogoWhatsapp.png" alt="Logo WhatsApp">
+                </div>
+                <h3>Teléfono / WhatsApp</h3>
+                <p>+57 310 756 5239</p>
+                <span class="contacto-link">Escribir por WhatsApp &rarr;</span>
+            </a>
+
+            <!-- Tarjeta LinkedIn -->
+            <a href="https://www.linkedin.com/in/andr%C3%A9s-santiago-pe%C3%B1a-murcia-083a87342/" target="_blank" class="contacto-card">
+                <div class="contacto-icon">
+                    <img src="img/LogoLinkedin.png" alt="Logo LinkedIn">
+                </div>
+                <h3>LinkedIn</h3>
+                <p>Andrés Santiago Peña Murcia</p>
+                <span class="contacto-link">Ver Perfil &rarr;</span>
+            </a>
+        </div>
+    </section>
